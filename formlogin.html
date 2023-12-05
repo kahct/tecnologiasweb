@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+     <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+   
+    <!--Container fluid que abrigará o Logotipo do sistema-->
+    <div class="container-fluid text-center mt-5 mb-5">
+      <h1>Lorna Store</h1>
+    </div>
+
+    <!--Aqui ficará a barra de navegação do sistema-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky top" style="background-color: rgb(0, 0, 0);">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="formlogin.html">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-danger" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center" style="margin-top:30px;" margin-bottom:100px;>
+        <h1>area de acesso ao sistema</h1>
+
+        <form action="a" method="post" class="was-validated">
+            <div class="form-floating">
+                <input type="email" class="form-control" name="emailusuario" placeholder="informe o email" required>
+                <label form="emailusuario">email</label>
+            </div>
+
+            <div class="form-floating mb-3 mt-3">
+                <input type="password" class="form-control" name="senhausuario" placeholder="informe sua senha" required>
+                <label form="senhausuario">senha</label>
+            </div>
+
+            <button type="submit" name="btlogin" class="btn btn-danger">login</button>
+        </form>
+
+        <br><br>
+        <a href="formUsuario.html">Cadastre-se</a>
+      </div>
+      
+    <div class="container-fluid text-center fixed-bottom text-light" style="background-color: rgb(0, 0, 0);">
+      <p>
+        interfaces web desenvolvido por kah
+        <b>
+          <a href="kah230383.@gmail.com">
+          </a>
+        </b>
+      </p>
+    </div>
+
+</body>
+</html>
